@@ -1,3 +1,61 @@
-.img {
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.items-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.item {
+    border: 3px solid #000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.item:hover {
+    cursor: pointer;
+    font-weight: 800;
+    background-color: beige;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+    font-family: "Source Sans 3", sans-serif;
+    padding: 30px 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.img {
+    width: 97%;
+    border: 3px solid black;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
